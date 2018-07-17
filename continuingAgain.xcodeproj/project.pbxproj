@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B77B4E420FABE4600E8CDF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B4E320FABE4600E8CDF3 /* main.cpp */; };
+		2B77B50820FABE9900E8CDF3 /* makeHelpMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B4EA20FABE9300E8CDF3 /* makeHelpMessage.cpp */; };
+		2B77B50920FABE9900E8CDF3 /* message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B4EB20FABE9300E8CDF3 /* message.cpp */; };
+		2B77B50B20FABE9900E8CDF3 /* GetTimeOfDay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B4EF20FABE9400E8CDF3 /* GetTimeOfDay.cpp */; };
+		2B77B50C20FABE9900E8CDF3 /* insertBucketizedEnergyValuesIntoTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B4F020FABE9400E8CDF3 /* insertBucketizedEnergyValuesIntoTable.cpp */; };
+		2B77B50D20FABE9900E8CDF3 /* setupForMultiFitInherit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B4F720FABE9500E8CDF3 /* setupForMultiFitInherit.cpp */; };
+		2B77B50E20FABE9900E8CDF3 /* varyingType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B4F820FABE9500E8CDF3 /* varyingType.cpp */; };
+		2B77B50F20FABE9900E8CDF3 /* AllocateWorkingVectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B4FC20FABE9600E8CDF3 /* AllocateWorkingVectors.cpp */; };
+		2B77B51020FABE9900E8CDF3 /* StopWatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B4FF20FABE9700E8CDF3 /* StopWatch.cpp */; };
+		2B77B51120FABE9900E8CDF3 /* cmdLineArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B50020FABE9700E8CDF3 /* cmdLineArgs.cpp */; };
+		2B77B51220FABE9900E8CDF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B50120FABE9700E8CDF3 /* main.cpp */; };
+		2B77B51320FABE9900E8CDF3 /* alignField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B50220FABE9800E8CDF3 /* alignField.cpp */; };
+		2B77B51420FABE9900E8CDF3 /* TblPolyFitWithCovInherit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B50320FABE9800E8CDF3 /* TblPolyFitWithCovInherit.cpp */; };
+		2B77B51520FABE9900E8CDF3 /* selectFromTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B50420FABE9800E8CDF3 /* selectFromTable.cpp */; };
+		2B77B51620FABE9900E8CDF3 /* baseClassInherit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B50620FABE9900E8CDF3 /* baseClassInherit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +37,33 @@
 
 /* Begin PBXFileReference section */
 		2B77B4E020FABE4600E8CDF3 /* continuingAgain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = continuingAgain; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B77B4E320FABE4600E8CDF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B77B4EA20FABE9300E8CDF3 /* makeHelpMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = makeHelpMessage.cpp; sourceTree = "<group>"; };
+		2B77B4EB20FABE9300E8CDF3 /* message.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = message.cpp; sourceTree = "<group>"; };
+		2B77B4ED20FABE9400E8CDF3 /* setupForMultiFitInherit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = setupForMultiFitInherit.hpp; sourceTree = "<group>"; };
+		2B77B4EE20FABE9400E8CDF3 /* BitFlags.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BitFlags.hpp; sourceTree = "<group>"; };
+		2B77B4EF20FABE9400E8CDF3 /* GetTimeOfDay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GetTimeOfDay.cpp; sourceTree = "<group>"; };
+		2B77B4F020FABE9400E8CDF3 /* insertBucketizedEnergyValuesIntoTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = insertBucketizedEnergyValuesIntoTable.cpp; sourceTree = "<group>"; };
+		2B77B4F120FABE9500E8CDF3 /* myPrototypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = myPrototypes.hpp; sourceTree = "<group>"; };
+		2B77B4F220FABE9500E8CDF3 /* StopWatch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StopWatch.hpp; sourceTree = "<group>"; };
+		2B77B4F320FABE9500E8CDF3 /* baseClassInherit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = baseClassInherit.hpp; sourceTree = "<group>"; };
+		2B77B4F420FABE9500E8CDF3 /* GetTimeOfDay.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GetTimeOfDay.hpp; sourceTree = "<group>"; };
+		2B77B4F620FABE9500E8CDF3 /* makeHelpMessage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = makeHelpMessage.hpp; sourceTree = "<group>"; };
+		2B77B4F720FABE9500E8CDF3 /* setupForMultiFitInherit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = setupForMultiFitInherit.cpp; sourceTree = "<group>"; };
+		2B77B4F820FABE9500E8CDF3 /* varyingType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = varyingType.cpp; sourceTree = "<group>"; };
+		2B77B4F920FABE9600E8CDF3 /* AllocateWorkingVectors.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AllocateWorkingVectors.hpp; sourceTree = "<group>"; };
+		2B77B4FA20FABE9600E8CDF3 /* pgtypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pgtypes.hpp; sourceTree = "<group>"; };
+		2B77B4FB20FABE9600E8CDF3 /* cmdLineArgs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cmdLineArgs.hpp; sourceTree = "<group>"; };
+		2B77B4FC20FABE9600E8CDF3 /* AllocateWorkingVectors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AllocateWorkingVectors.cpp; sourceTree = "<group>"; };
+		2B77B4FD20FABE9600E8CDF3 /* alignField.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = alignField.hpp; sourceTree = "<group>"; };
+		2B77B4FE20FABE9600E8CDF3 /* varyingType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = varyingType.hpp; sourceTree = "<group>"; };
+		2B77B4FF20FABE9700E8CDF3 /* StopWatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StopWatch.cpp; sourceTree = "<group>"; };
+		2B77B50020FABE9700E8CDF3 /* cmdLineArgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cmdLineArgs.cpp; sourceTree = "<group>"; };
+		2B77B50120FABE9700E8CDF3 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../continuingOn/continuingOn/main.cpp; sourceTree = "<group>"; };
+		2B77B50220FABE9800E8CDF3 /* alignField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alignField.cpp; sourceTree = "<group>"; };
+		2B77B50320FABE9800E8CDF3 /* TblPolyFitWithCovInherit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TblPolyFitWithCovInherit.cpp; sourceTree = "<group>"; };
+		2B77B50420FABE9800E8CDF3 /* selectFromTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = selectFromTable.cpp; sourceTree = "<group>"; };
+		2B77B50520FABE9900E8CDF3 /* TblPolyFitWithCovInherit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TblPolyFitWithCovInherit.hpp; sourceTree = "<group>"; };
+		2B77B50620FABE9900E8CDF3 /* baseClassInherit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baseClassInherit.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +96,33 @@
 		2B77B4E220FABE4600E8CDF3 /* continuingAgain */ = {
 			isa = PBXGroup;
 			children = (
-				2B77B4E320FABE4600E8CDF3 /* main.cpp */,
+				2B77B50220FABE9800E8CDF3 /* alignField.cpp */,
+				2B77B4FD20FABE9600E8CDF3 /* alignField.hpp */,
+				2B77B4FC20FABE9600E8CDF3 /* AllocateWorkingVectors.cpp */,
+				2B77B4F920FABE9600E8CDF3 /* AllocateWorkingVectors.hpp */,
+				2B77B50620FABE9900E8CDF3 /* baseClassInherit.cpp */,
+				2B77B4F320FABE9500E8CDF3 /* baseClassInherit.hpp */,
+				2B77B4EE20FABE9400E8CDF3 /* BitFlags.hpp */,
+				2B77B50020FABE9700E8CDF3 /* cmdLineArgs.cpp */,
+				2B77B4FB20FABE9600E8CDF3 /* cmdLineArgs.hpp */,
+				2B77B4EF20FABE9400E8CDF3 /* GetTimeOfDay.cpp */,
+				2B77B4F420FABE9500E8CDF3 /* GetTimeOfDay.hpp */,
+				2B77B4F020FABE9400E8CDF3 /* insertBucketizedEnergyValuesIntoTable.cpp */,
+				2B77B50120FABE9700E8CDF3 /* main.cpp */,
+				2B77B4EA20FABE9300E8CDF3 /* makeHelpMessage.cpp */,
+				2B77B4F620FABE9500E8CDF3 /* makeHelpMessage.hpp */,
+				2B77B4EB20FABE9300E8CDF3 /* message.cpp */,
+				2B77B4F120FABE9500E8CDF3 /* myPrototypes.hpp */,
+				2B77B4FA20FABE9600E8CDF3 /* pgtypes.hpp */,
+				2B77B50420FABE9800E8CDF3 /* selectFromTable.cpp */,
+				2B77B4F720FABE9500E8CDF3 /* setupForMultiFitInherit.cpp */,
+				2B77B4ED20FABE9400E8CDF3 /* setupForMultiFitInherit.hpp */,
+				2B77B4FF20FABE9700E8CDF3 /* StopWatch.cpp */,
+				2B77B4F220FABE9500E8CDF3 /* StopWatch.hpp */,
+				2B77B50320FABE9800E8CDF3 /* TblPolyFitWithCovInherit.cpp */,
+				2B77B50520FABE9900E8CDF3 /* TblPolyFitWithCovInherit.hpp */,
+				2B77B4F820FABE9500E8CDF3 /* varyingType.cpp */,
+				2B77B4FE20FABE9600E8CDF3 /* varyingType.hpp */,
 			);
 			path = continuingAgain;
 			sourceTree = "<group>";
@@ -118,7 +183,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B77B4E420FABE4600E8CDF3 /* main.cpp in Sources */,
+				2B77B51420FABE9900E8CDF3 /* TblPolyFitWithCovInherit.cpp in Sources */,
+				2B77B51320FABE9900E8CDF3 /* alignField.cpp in Sources */,
+				2B77B51020FABE9900E8CDF3 /* StopWatch.cpp in Sources */,
+				2B77B51220FABE9900E8CDF3 /* main.cpp in Sources */,
+				2B77B50820FABE9900E8CDF3 /* makeHelpMessage.cpp in Sources */,
+				2B77B50F20FABE9900E8CDF3 /* AllocateWorkingVectors.cpp in Sources */,
+				2B77B50E20FABE9900E8CDF3 /* varyingType.cpp in Sources */,
+				2B77B51620FABE9900E8CDF3 /* baseClassInherit.cpp in Sources */,
+				2B77B50C20FABE9900E8CDF3 /* insertBucketizedEnergyValuesIntoTable.cpp in Sources */,
+				2B77B51120FABE9900E8CDF3 /* cmdLineArgs.cpp in Sources */,
+				2B77B50D20FABE9900E8CDF3 /* setupForMultiFitInherit.cpp in Sources */,
+				2B77B51520FABE9900E8CDF3 /* selectFromTable.cpp in Sources */,
+				2B77B50920FABE9900E8CDF3 /* message.cpp in Sources */,
+				2B77B50B20FABE9900E8CDF3 /* GetTimeOfDay.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +316,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/usr/local/include,
+					/usr/local/Cellar/gsl/2.5/include,
+					/usr/local/pgsql/pgsql090513/include,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D",
+					"VIACMDLINETBLPOLYFITPARAMETERS=24",
+				);
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-D",
+					"VIACMDLINETBLPOLYFITPARAMETERS=24",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lpq",
+					"-lgsl",
+					"-lgslcblas",
+					"-lm",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,6 +344,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D",
+					"VIACMDLINETBLPOLYFITPARAMETERS=24",
+				);
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
